@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "en-praise-01",
+    "language": "en",
+    "text": "Your explanation made this difficult topic easy to follow.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the clarity of the explanation for making a difficult topic easier to understand."
+  },
+  {
+    "id": "en-praise-02",
+    "language": "en",
+    "text": "I learned a lot from this tutorial, thanks for putting it together.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Thanks the creator for the tutorial and reports having learned a lot; the purpose is to express satisfaction."
+  },
+  {
+    "id": "en-praise-03",
+    "language": "en",
+    "text": "The examples were clear and useful from start to finish.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Positively evaluates the clarity and usefulness of all the examples."
+  },
+  {
+    "id": "en-praise-04",
+    "language": "en",
+    "text": "I liked the pacing and the practical demo.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the pacing and practical demonstration. There is no competing intent."
+  },
+  {
+    "id": "en-praise-05",
+    "language": "en",
+    "text": "Helpful video, especially the part about the final step.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Highlights the usefulness of the video and a specific step; identifying what was helpful does not introduce ambiguity."
+  },
+  {
+    "id": "en-praise-06",
+    "language": "en",
+    "text": "Nice work, though I would have liked one more example.",
+    "expectedCategory": "praise",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Combines praise with a wish for another example. The praise label follows the reviewer’s stated criterion: the positive assessment dominates and the improvement is secondary. This is mixed intent without irony."
+  },
+  {
+    "id": "en-praise-07",
+    "language": "en",
+    "text": "Really clear overall; the opening could be a little shorter.",
+    "expectedCategory": "praise",
+    "scenario": "borderline",
+    "rationale": "The positive overall assessment competes with a concrete improvement: shortening the opening. Praise is proposed because of the overall assessment, but constructive_criticism is also defensible and requires confirmation by the human reviewer. The writing is standard."
+  },
+  {
+    "id": "en-praise-08",
+    "language": "en",
+    "text": "Good job explaining the setup, even if the audio dips once.",
+    "expectedCategory": "praise",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Praises the explanation and adds a caveat about a brief audio problem. Praise is proposed as the main assessment; the caveat introduces mixed intent without irony or typos."
+  },
+  {
+    "id": "en-praise-09",
+    "language": "en",
+    "text": "Loved this walkthrough, it saved me hours lol.",
+    "expectedCategory": "praise",
+    "scenario": "informal_or_typo",
+    "rationale": "Praises the walkthrough for saving hours. The abbreviation lol adds an informal register without expressing sarcasm or a second intent."
+  },
+  {
+    "id": "en-praise-10",
+    "language": "en",
+    "text": "Well explained... actually understood it for once 😅",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the explanation because the commenter finally understood the topic. The reference to earlier difficulty and the emoji do not make the praise ironic."
+  },
+  {
+    "id": "en-constructive_criticism-01",
+    "language": "en",
+    "text": "The explanation is useful, but showing the command on screen would help.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Acknowledges the usefulness of the explanation and proposes showing the command on screen. The concrete improvement drives the comment; it combines praise and a suggestion without irony."
+  },
+  {
+    "id": "en-constructive_criticism-02",
+    "language": "en",
+    "text": "Could you slow down during the configuration section?",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Asks for a slower pace in a specific section. The question requests an improvement to the presentation rather than information about the content."
+  },
+  {
+    "id": "en-constructive_criticism-03",
+    "language": "en",
+    "text": "The audio is quiet in the second half; raising it would improve the tutorial.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Identifies low audio volume and proposes increasing it to improve the tutorial."
+  },
+  {
+    "id": "en-constructive_criticism-04",
+    "language": "en",
+    "text": "A short summary at the end would make the steps easier to remember.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Proposes adding a closing summary and explains how it would help readers remember the steps. The improvement is explicit."
+  },
+  {
+    "id": "en-constructive_criticism-05",
+    "language": "en",
+    "text": "The demo skips a step between setup and the result.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Points out a missing step in the demonstration. It identifies a specific, correctable flaw even though the solution is not phrased as a request."
+  },
+  {
+    "id": "en-constructive_criticism-06",
+    "language": "en",
+    "text": "I agree with the conclusion, but the example does not quite prove it.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Accepts the conclusion but questions whether the example supports it. The focus is on improving the evidence; it combines agreement with specific criticism."
+  },
+  {
+    "id": "en-constructive_criticism-07",
+    "language": "en",
+    "text": "The code is good; the thumbnail promises more detail than the video gives.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Values the code and identifies a gap between the thumbnail’s promise and the detail provided. The specific criticism outweighs the praise."
+  },
+  {
+    "id": "en-constructive_criticism-08",
+    "language": "en",
+    "text": "Maybe define that term before using it? The rest is helpful.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Asks for a term to be defined before use and appreciates the rest of the content. The specific improvement request dominates; there are no obvious typos or slang."
+  },
+  {
+    "id": "en-constructive_criticism-09",
+    "language": "en",
+    "text": "good vid but the captions are way out of sync lol",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "informal_or_typo",
+    "rationale": "Identifies out-of-sync captions, a correctable flaw, after brief praise. Written laughter and colloquial wording are the main scenario feature; the comment also contains mixed intent."
+  },
+  {
+    "id": "en-constructive_criticism-10",
+    "language": "en",
+    "text": "Nice tutorial... shame the tiny text is impossible to read 🙃",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "The opening praise contrasts with a complaint about unreadable text and an emoji conveying irony. It criticizes a correctable aspect of the tutorial without insulting the creator."
+  },
+  {
+    "id": "en-question-01",
+    "language": "en",
+    "text": "Which version of the software are you using?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks which software version is used in the video."
+  },
+  {
+    "id": "en-question-02",
+    "language": "en",
+    "text": "Where did you get the sample files shown here?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks where the example files came from or where they can be found."
+  },
+  {
+    "id": "en-question-03",
+    "language": "en",
+    "text": "Does this also work on Linux?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks whether the solution is compatible with Linux."
+  },
+  {
+    "id": "en-question-04",
+    "language": "en",
+    "text": "How much memory does this setup need?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks how much memory the setup requires. There is no additional criticism or proposal."
+  },
+  {
+    "id": "en-question-05",
+    "language": "en",
+    "text": "Why did you choose this setting for the example?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks for an explanation of a setting choice. Asking why a decision was made does not itself imply disapproval."
+  },
+  {
+    "id": "en-question-06",
+    "language": "en",
+    "text": "I wonder whether the same command works on older releases?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Expresses uncertainty about compatibility with earlier versions. The request for information remains clear even when phrased indirectly."
+  },
+  {
+    "id": "en-question-07",
+    "language": "en",
+    "text": "Could you explain what happens if that value is empty?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks what happens when a value is empty. It concerns the existing example and does not propose another video."
+  },
+  {
+    "id": "en-question-08",
+    "language": "en",
+    "text": "Is the project available somewhere, or did I miss the link?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Looks for the project or its link and considers having overlooked it. These are two forms of the same inquiry, with no clear slang or typos."
+  },
+  {
+    "id": "en-question-09",
+    "language": "en",
+    "text": "anyone know if this runs on mac too?",
+    "expectedCategory": "question",
+    "scenario": "informal_or_typo",
+    "rationale": "Asks about Mac compatibility using chat-style writing, lowercase letters, and reduced punctuation. There is no irony or other intent."
+  },
+  {
+    "id": "en-question-10",
+    "language": "en",
+    "text": "Wait, why does that step happen before the install? 🤔",
+    "expectedCategory": "question",
+    "scenario": "borderline",
+    "rationale": "Asks about the order of the steps. It may suggest that the order is wrong, but requests an explanation without asserting an error; question is proposed over constructive_criticism. The emoji alone does not establish irony."
+  },
+  {
+    "id": "en-new_video_idea-01",
+    "language": "en",
+    "text": "Please make a video comparing these two editing tools.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Explicitly requests a new video comparing two editing tools."
+  },
+  {
+    "id": "en-new_video_idea-02",
+    "language": "en",
+    "text": "A beginner guide to home networking would be great.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes a beginner’s guide to home networking, a specific topic for future content."
+  },
+  {
+    "id": "en-new_video_idea-03",
+    "language": "en",
+    "text": "Could your next tutorial cover backing up this project?",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes covering backups in the next tutorial. The reference to upcoming content distinguishes the request from a technical question."
+  },
+  {
+    "id": "en-new_video_idea-04",
+    "language": "en",
+    "text": "I would watch a follow-up about testing the finished app.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Expresses interest in a follow-up about testing the application; the future content is specified."
+  },
+  {
+    "id": "en-new_video_idea-05",
+    "language": "en",
+    "text": "Please do a walkthrough of the setup on a small server.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Requests a walkthrough of setting up the solution on a small server. Requesting content with that focus supports new_video_idea."
+  },
+  {
+    "id": "en-new_video_idea-06",
+    "language": "en",
+    "text": "Have you considered making a video about the free alternatives?",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Suggests making a video about free alternatives. The question form does not change the explicit proposal for future content."
+  },
+  {
+    "id": "en-new_video_idea-07",
+    "language": "en",
+    "text": "It would be useful to see the same example in another language.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "borderline",
+    "rationale": "Proposes seeing the example in another programming language without specifying whether this means a new video or an improvement to the current one. New_video_idea is proposed as a topic extension; constructive_criticism is also plausible and requires human judgment."
+  },
+  {
+    "id": "en-new_video_idea-08",
+    "language": "en",
+    "text": "A troubleshooting episode for common install errors would help.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes a guide devoted to installation errors, providing a defined topic for additional content."
+  },
+  {
+    "id": "en-new_video_idea-09",
+    "language": "en",
+    "text": "u should make a vid about this for beginners next",
+    "expectedCategory": "new_video_idea",
+    "scenario": "informal_or_typo",
+    "rationale": "Requests a future video for beginners using the informal abbreviations u and vid. The future content is explicit; there is no irony."
+  },
+  {
+    "id": "en-new_video_idea-10",
+    "language": "en",
+    "text": "Part two on deployment pls, that would be awesome 😄",
+    "expectedCategory": "new_video_idea",
+    "scenario": "informal_or_typo",
+    "rationale": "Requests a second part about deployment and uses the informal abbreviation pls. The enthusiasm and emoji reinforce the proposal without introducing irony."
+  },
+  {
+    "id": "en-hater-01",
+    "language": "en",
+    "text": "You clearly have no idea what you are talking about.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Directly dismisses the creator’s knowledge without identifying a fact or step to correct."
+  },
+  {
+    "id": "en-hater-02",
+    "language": "en",
+    "text": "This channel is embarrassing and your work is useless.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Dismisses the channel and the creator’s work as a whole. It offers no specific improvement."
+  },
+  {
+    "id": "en-hater-03",
+    "language": "en",
+    "text": "Only an idiot would make a tutorial this bad.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Insults the person who made the tutorial. The negative assessment of the video serves as a vehicle for the personal attack."
+  },
+  {
+    "id": "en-hater-04",
+    "language": "en",
+    "text": "You should stop uploading; nobody wants your nonsense.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Tells the creator to stop publishing and disparages the content. This is hostile rejection rather than a suggestion for improvement."
+  },
+  {
+    "id": "en-hater-05",
+    "language": "en",
+    "text": "Everything you say is stupid and you are a joke.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Explicitly insults the creator and dismisses everything they say; the distinction from constructive criticism is clear."
+  },
+  {
+    "id": "en-hater-06",
+    "language": "en",
+    "text": "The video is wrong, and honestly you are a fraud.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Calls the creator a fraud after a generic negative assessment of the video. Personal disparagement without concrete evidence dominates."
+  },
+  {
+    "id": "en-hater-07",
+    "language": "en",
+    "text": "I disagree with the advice; you are clueless and pathetic.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Turns disagreement into explicit personal insults. Disagreement alone would not justify hater; the insults do."
+  },
+  {
+    "id": "en-hater-08",
+    "language": "en",
+    "text": "That was a bad explanation. You must be completely brainless.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Moves from a negative assessment of the explanation to insulting the creator’s intelligence. The writing is standard."
+  },
+  {
+    "id": "en-hater-09",
+    "language": "en",
+    "text": "wow ur advice is trash and so are you lol",
+    "expectedCategory": "hater",
+    "scenario": "informal_or_typo",
+    "rationale": "Insults both the advice and the person in a colloquial register with written laughter. The laughter neither softens the attack nor establishes irony."
+  },
+  {
+    "id": "en-hater-10",
+    "language": "en",
+    "text": "Another genius upload 🙄 you make everything worse",
+    "expectedCategory": "hater",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "The apparent opening praise is contradicted by the dismissive emoji and subsequent disparagement. This is hostile sarcasm without a concrete improvement."
+  },
+  {
+    "id": "en-spam-01",
+    "language": "en",
+    "text": "Buy followers today at fast-growth.example and double your reach.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Advertises a service for buying followers, including a domain and a commercial call to action."
+  },
+  {
+    "id": "en-spam-02",
+    "language": "en",
+    "text": "Visit my store and use code DEAL for a discount on our course.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes a store and course through an offer code. The commercial purpose is explicit."
+  },
+  {
+    "id": "en-spam-03",
+    "language": "en",
+    "text": "Earn cash from home, message me now to get started.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Offers an opportunity to earn money from home and requests contact to get started; it functions as promotional recruitment."
+  },
+  {
+    "id": "en-spam-04",
+    "language": "en",
+    "text": "Free prizes for everyone, click my profile to claim yours.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promises prizes and directs the reader to a profile to claim them. The promotional call to action is explicit rather than borderline."
+  },
+  {
+    "id": "en-spam-05",
+    "language": "en",
+    "text": "Join my paid mentoring program; limited offer, register here.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes a mentoring program using commercial urgency and a registration request."
+  },
+  {
+    "id": "en-spam-06",
+    "language": "en",
+    "text": "I sell camera kits; contact me to order yours today.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Advertises camera kits for sale and asks readers to get in touch to place an order."
+  },
+  {
+    "id": "en-spam-07",
+    "language": "en",
+    "text": "Subscribe to my channel for daily deals and product giveaways.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Asks readers to subscribe to the commenter’s own channel for offers and giveaways. The self-promotion is explicit and the writing is standard."
+  },
+  {
+    "id": "en-spam-08",
+    "language": "en",
+    "text": "Get instant followers now at growth.example, sign up today.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes followers through a domain and a sign-up request. There are no relevant typos or slang."
+  },
+  {
+    "id": "en-spam-09",
+    "language": "en",
+    "text": "BUY NOW!!! cheap course, DM me for the secret method!!!",
+    "expectedCategory": "spam",
+    "scenario": "informal_or_typo",
+    "rationale": "Promotes a course and requests contact by DM. The messaging abbreviation and emphatic punctuation characterize the register; there is no evident irony."
+  },
+  {
+    "id": "en-spam-10",
+    "language": "en",
+    "text": "free $$$ click link in bio rn or miss out 😂",
+    "expectedCategory": "spam",
+    "scenario": "informal_or_typo",
+    "rationale": "Promises money and urges readers to open the profile link. The abbreviations bio and rn, together with $$$, create an informal register; the emoji does not establish irony."
+  },
+  {
+    "id": "en-other-01",
+    "language": "en",
+    "text": "I watched this during my lunch break.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes when the commenter watched the video without assessing its quality or making a request."
+  },
+  {
+    "id": "en-other-02",
+    "language": "en",
+    "text": "The room has a large window behind the desk.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes a window in the setting without expressing praise, criticism, or a question."
+  },
+  {
+    "id": "en-other-03",
+    "language": "en",
+    "text": "My laptop fan started during this part of the video.",
+    "expectedCategory": "other",
+    "scenario": "borderline",
+    "rationale": "Mentions that the laptop fan started. It could imply a performance complaint, but does not assert a problem or request an improvement; other is proposed based on the literal reading."
+  },
+  {
+    "id": "en-other-04",
+    "language": "en",
+    "text": "This upload appeared in my recommendations yesterday.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Recounts how the video appeared in recommendations. It expresses neither an assessment nor a request."
+  },
+  {
+    "id": "en-other-05",
+    "language": "en",
+    "text": "I am watching on a tablet while travelling.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes the device and circumstances in which the commenter is watching the video."
+  },
+  {
+    "id": "en-other-06",
+    "language": "en",
+    "text": "The first scene shows a red notebook on the table.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Points out a notebook visible in the opening scene. This is a descriptive observation without another identifiable intent."
+  },
+  {
+    "id": "en-other-07",
+    "language": "en",
+    "text": "I usually listen to tutorials while doing the dishes.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes a personal habit when listening to tutorials. Mentioning household chores does not constitute slang or a spelling error."
+  },
+  {
+    "id": "en-other-08",
+    "language": "en",
+    "text": "This topic came up in a meeting at work today.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Connects the topic to a work meeting without praising, criticizing, or requesting information."
+  },
+  {
+    "id": "en-other-09",
+    "language": "en",
+    "text": "watched this on the train, signal kept dropping lol",
+    "expectedCategory": "other",
+    "scenario": "informal_or_typo",
+    "rationale": "Recounts connection problems during a journey and adds written laughter. It refers to the commenter’s connection without attributing the problem to the video; the register is informal rather than ironic."
+  },
+  {
+    "id": "en-other-10",
+    "language": "en",
+    "text": "It is 2am and the cat has claimed my keyboard 😹",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Makes a humorous remark about the time and the commenter’s cat. The humor and emoji do not imply sarcasm or an additional moderation intent."
+  },
+  {
+    "id": "es-praise-01",
+    "language": "es",
+    "text": "Tu explicación hizo que este tema difícil fuera fácil de seguir.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the clarity of the explanation for making a difficult topic easier to understand."
+  },
+  {
+    "id": "es-praise-02",
+    "language": "es",
+    "text": "Aprendí mucho con este tutorial, gracias por prepararlo.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Thanks the creator for the tutorial and reports having learned a lot; the purpose is to express satisfaction."
+  },
+  {
+    "id": "es-praise-03",
+    "language": "es",
+    "text": "Los ejemplos fueron claros y útiles de principio a fin.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Positively evaluates the clarity and usefulness of all the examples."
+  },
+  {
+    "id": "es-praise-04",
+    "language": "es",
+    "text": "Me gustaron el ritmo y la demostración práctica.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the pacing and practical demonstration. There is no competing intent."
+  },
+  {
+    "id": "es-praise-05",
+    "language": "es",
+    "text": "Vídeo muy útil, sobre todo la parte del último paso.",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Highlights the usefulness of the video and a specific step; identifying what was helpful does not introduce ambiguity."
+  },
+  {
+    "id": "es-praise-06",
+    "language": "es",
+    "text": "Buen trabajo, aunque me habría gustado ver otro ejemplo.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Praises the work but requests another example. The concrete improvement takes precedence over the accompanying praise, so this is constructive criticism with mixed intent."
+  },
+  {
+    "id": "es-praise-07",
+    "language": "es",
+    "text": "Muy claro en general; el comienzo podría ser algo más corto.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "borderline",
+    "rationale": "Praises the overall clarity but specifically suggests shortening the opening. The concrete improvement takes precedence over the accompanying praise."
+  },
+  {
+    "id": "es-praise-08",
+    "language": "es",
+    "text": "Explicas bien la configuración, aunque el audio falla una vez.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Praises the configuration explanation but identifies a specific audio failure. The concrete criticism takes precedence over the accompanying praise."
+  },
+  {
+    "id": "es-praise-09",
+    "language": "es",
+    "text": "Me encantó la guía, me ahorró horas de prueba jaja.",
+    "expectedCategory": "praise",
+    "scenario": "informal_or_typo",
+    "rationale": "Praises the walkthrough for saving hours. The written laughter jaja adds an informal register without expressing sarcasm or a second intent."
+  },
+  {
+    "id": "es-praise-10",
+    "language": "es",
+    "text": "Muy bien explicado... por fin lo entendí 😅",
+    "expectedCategory": "praise",
+    "scenario": "clear",
+    "rationale": "Praises the explanation because the commenter finally understood the topic. The reference to earlier difficulty and the emoji do not make the praise ironic."
+  },
+  {
+    "id": "es-constructive_criticism-01",
+    "language": "es",
+    "text": "La explicación sirve, pero ayudaría ver el comando en pantalla.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Acknowledges the usefulness of the explanation and proposes showing the command on screen. The concrete improvement drives the comment; it combines praise and a suggestion without irony."
+  },
+  {
+    "id": "es-constructive_criticism-02",
+    "language": "es",
+    "text": "¿Podrías ir más despacio durante la parte de configuración?",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Asks for a slower pace in a specific section. The question requests an improvement to the presentation rather than information about the content."
+  },
+  {
+    "id": "es-constructive_criticism-03",
+    "language": "es",
+    "text": "El audio se oye bajo en la segunda mitad; subirlo mejoraría el tutorial.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Identifies low audio volume and proposes increasing it to improve the tutorial."
+  },
+  {
+    "id": "es-constructive_criticism-04",
+    "language": "es",
+    "text": "Un resumen al final ayudaría a recordar los pasos.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Proposes adding a closing summary and explains how it would help readers remember the steps. The improvement is explicit."
+  },
+  {
+    "id": "es-constructive_criticism-05",
+    "language": "es",
+    "text": "La demo se salta un paso entre la configuración y el resultado.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "clear",
+    "rationale": "Points out a missing step in the demonstration. It identifies a specific, correctable flaw even though the solution is not phrased as a request."
+  },
+  {
+    "id": "es-constructive_criticism-06",
+    "language": "es",
+    "text": "Estoy de acuerdo con la conclusión, pero el ejemplo no la demuestra del todo.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Accepts the conclusion but questions whether the example supports it. The focus is on improving the evidence; it combines agreement with specific criticism."
+  },
+  {
+    "id": "es-constructive_criticism-07",
+    "language": "es",
+    "text": "El código está bien; la miniatura promete más detalle del que tiene el vídeo.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Values the code and identifies a gap between the thumbnail’s promise and the detail provided. The specific criticism outweighs the praise."
+  },
+  {
+    "id": "es-constructive_criticism-08",
+    "language": "es",
+    "text": "¿Podrías definir ese término antes? El resto ayuda bastante.",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "Asks for a term to be defined before use and appreciates the rest of the content. The specific improvement request dominates; there are no obvious typos or slang."
+  },
+  {
+    "id": "es-constructive_criticism-09",
+    "language": "es",
+    "text": "buen vídeo pero los subtítulos van fatal de sincronía jaja",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "informal_or_typo",
+    "rationale": "Identifies out-of-sync captions, a correctable flaw, after brief praise. Written laughter and colloquial wording are the main scenario feature; the comment also contains mixed intent."
+  },
+  {
+    "id": "es-constructive_criticism-10",
+    "language": "es",
+    "text": "Buen tutorial... lástima que el texto diminuto no se lea 🙃",
+    "expectedCategory": "constructive_criticism",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "The opening praise contrasts with a complaint about unreadable text and an emoji conveying irony. It criticizes a correctable aspect of the tutorial without insulting the creator."
+  },
+  {
+    "id": "es-question-01",
+    "language": "es",
+    "text": "¿Qué versión del programa estás usando?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks which software version is used in the video."
+  },
+  {
+    "id": "es-question-02",
+    "language": "es",
+    "text": "¿Dónde conseguiste los archivos de ejemplo que aparecen?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks where the example files came from or where they can be found."
+  },
+  {
+    "id": "es-question-03",
+    "language": "es",
+    "text": "¿Esto también funciona en Linux?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks whether the solution is compatible with Linux."
+  },
+  {
+    "id": "es-question-04",
+    "language": "es",
+    "text": "¿Cuánta memoria necesita esta configuración?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks how much memory the setup requires. There is no additional criticism or proposal."
+  },
+  {
+    "id": "es-question-05",
+    "language": "es",
+    "text": "¿Por qué elegiste ese ajuste para el ejemplo?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks for an explanation of a setting choice. Asking why a decision was made does not itself imply disapproval."
+  },
+  {
+    "id": "es-question-06",
+    "language": "es",
+    "text": "Me pregunto si el mismo comando sirve en versiones anteriores.",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Expresses uncertainty about compatibility with earlier versions. The request for information remains clear even when phrased indirectly."
+  },
+  {
+    "id": "es-question-07",
+    "language": "es",
+    "text": "¿Puedes explicar qué ocurre si ese valor está vacío?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Asks what happens when a value is empty. It concerns the existing example and does not propose another video."
+  },
+  {
+    "id": "es-question-08",
+    "language": "es",
+    "text": "¿Está disponible el proyecto o me he perdido el enlace?",
+    "expectedCategory": "question",
+    "scenario": "clear",
+    "rationale": "Looks for the project or its link and considers having overlooked it. These are two forms of the same inquiry, with no clear slang or typos."
+  },
+  {
+    "id": "es-question-09",
+    "language": "es",
+    "text": "alguien sabe si esto funciona también en mac?",
+    "expectedCategory": "question",
+    "scenario": "informal_or_typo",
+    "rationale": "Asks about Mac compatibility using chat-style writing, lowercase letters, and reduced punctuation. There is no irony or other intent."
+  },
+  {
+    "id": "es-question-10",
+    "language": "es",
+    "text": "Espera, ¿por qué ese paso va antes de instalar? 🤔",
+    "expectedCategory": "question",
+    "scenario": "borderline",
+    "rationale": "Asks about the order of the steps. It may suggest that the order is wrong, but requests an explanation without asserting an error; question is proposed over constructive_criticism. The emoji alone does not establish irony."
+  },
+  {
+    "id": "es-new_video_idea-01",
+    "language": "es",
+    "text": "Haz un vídeo comparando estas dos herramientas de edición.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Explicitly requests a new video comparing two editing tools."
+  },
+  {
+    "id": "es-new_video_idea-02",
+    "language": "es",
+    "text": "Estaría genial una guía de redes domésticas para principiantes.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes a beginner’s guide to home networking, a specific topic for future content."
+  },
+  {
+    "id": "es-new_video_idea-03",
+    "language": "es",
+    "text": "¿Podrías dedicar el próximo tutorial a hacer copias del proyecto?",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes covering backups in the next tutorial. The reference to upcoming content distinguishes the request from a technical question."
+  },
+  {
+    "id": "es-new_video_idea-04",
+    "language": "es",
+    "text": "Vería una segunda parte sobre cómo probar la aplicación terminada.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Expresses interest in a follow-up about testing the application; the future content is specified."
+  },
+  {
+    "id": "es-new_video_idea-05",
+    "language": "es",
+    "text": "Haz una guía para configurar esto en un servidor pequeño.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Requests a walkthrough of setting up the solution on a small server. Requesting content with that focus supports new_video_idea."
+  },
+  {
+    "id": "es-new_video_idea-06",
+    "language": "es",
+    "text": "¿Te planteas un vídeo sobre las alternativas gratuitas?",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Suggests making a video about free alternatives. The question form does not change the explicit proposal for future content."
+  },
+  {
+    "id": "es-new_video_idea-07",
+    "language": "es",
+    "text": "Sería útil ver el mismo ejemplo en otro lenguaje.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "borderline",
+    "rationale": "Proposes seeing the example in another programming language without specifying whether this means a new video or an improvement to the current one. New_video_idea is proposed as a topic extension; constructive_criticism is also plausible and requires human judgment."
+  },
+  {
+    "id": "es-new_video_idea-08",
+    "language": "es",
+    "text": "Una guía de errores habituales durante la instalación ayudaría.",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Proposes a guide devoted to installation errors, providing a defined topic for additional content."
+  },
+  {
+    "id": "es-new_video_idea-09",
+    "language": "es",
+    "text": "tienes que hacer un vídeo de esto para novatos la próxima",
+    "expectedCategory": "new_video_idea",
+    "scenario": "clear",
+    "rationale": "Requests a future video for beginners. The sentence is direct and contains no unambiguous typo or slang; lowercase letters alone do not justify the informal scenario."
+  },
+  {
+    "id": "es-new_video_idea-10",
+    "language": "es",
+    "text": "Parte dos sobre despliegue pls, estaría genial 😄",
+    "expectedCategory": "new_video_idea",
+    "scenario": "informal_or_typo",
+    "rationale": "Requests a second part about deployment and uses the informal abbreviation pls. The enthusiasm and emoji reinforce the proposal without introducing irony."
+  },
+  {
+    "id": "es-hater-01",
+    "language": "es",
+    "text": "Está claro que no tienes ni idea de lo que dices.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Directly dismisses the creator’s knowledge without identifying a fact or step to correct."
+  },
+  {
+    "id": "es-hater-02",
+    "language": "es",
+    "text": "Este canal da vergüenza y tu trabajo no sirve para nada.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Dismisses the channel and the creator’s work as a whole. It offers no specific improvement."
+  },
+  {
+    "id": "es-hater-03",
+    "language": "es",
+    "text": "Solo un idiota haría un tutorial tan malo.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Insults the person who made the tutorial. The negative assessment of the video serves as a vehicle for the personal attack."
+  },
+  {
+    "id": "es-hater-04",
+    "language": "es",
+    "text": "Deberías dejar de subir vídeos; nadie quiere estas tonterías.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Tells the creator to stop publishing and disparages the content. This is hostile rejection rather than a suggestion for improvement."
+  },
+  {
+    "id": "es-hater-05",
+    "language": "es",
+    "text": "Todo lo que dices es estúpido y eres un chiste.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Explicitly insults the creator and dismisses everything they say; the distinction from constructive criticism is clear."
+  },
+  {
+    "id": "es-hater-06",
+    "language": "es",
+    "text": "El vídeo está mal y, sinceramente, eres un fraude.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Calls the creator a fraud after a generic negative assessment of the video. Personal disparagement without concrete evidence dominates."
+  },
+  {
+    "id": "es-hater-07",
+    "language": "es",
+    "text": "No estoy de acuerdo; eres un inútil y das pena.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Turns disagreement into explicit personal insults. Disagreement alone would not justify hater; the insults do."
+  },
+  {
+    "id": "es-hater-08",
+    "language": "es",
+    "text": "La explicación fue mala. Debes de ser completamente tonto.",
+    "expectedCategory": "hater",
+    "scenario": "clear",
+    "rationale": "Moves from a negative assessment of the explanation to insulting the creator’s intelligence. The writing is standard."
+  },
+  {
+    "id": "es-hater-09",
+    "language": "es",
+    "text": "buah tu consejo es basura y tú también jaja",
+    "expectedCategory": "hater",
+    "scenario": "informal_or_typo",
+    "rationale": "Insults both the advice and the person in a colloquial register with written laughter. The laughter neither softens the attack nor establishes irony."
+  },
+  {
+    "id": "es-hater-10",
+    "language": "es",
+    "text": "Otro vídeo brillante 🙄 cada vez lo haces peor",
+    "expectedCategory": "hater",
+    "scenario": "irony_or_mixed_intent",
+    "rationale": "The apparent opening praise is contradicted by the dismissive emoji and subsequent disparagement. This is hostile sarcasm without a concrete improvement."
+  },
+  {
+    "id": "es-spam-01",
+    "language": "es",
+    "text": "Compra seguidores en crecimiento.example y duplica tu alcance.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Advertises a service for buying followers, including a domain and a commercial call to action."
+  },
+  {
+    "id": "es-spam-02",
+    "language": "es",
+    "text": "Visita mi tienda y usa el código OFERTA para nuestro curso.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes a store and course through an offer code. The commercial purpose is explicit."
+  },
+  {
+    "id": "es-spam-03",
+    "language": "es",
+    "text": "Gana dinero desde casa, escríbeme ahora para empezar.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Offers an opportunity to earn money from home and requests contact to get started; it functions as promotional recruitment."
+  },
+  {
+    "id": "es-spam-04",
+    "language": "es",
+    "text": "Premios gratis para todos, entra en mi perfil para reclamarlo.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promises prizes and directs the reader to a profile to claim them. The promotional call to action is explicit rather than borderline."
+  },
+  {
+    "id": "es-spam-05",
+    "language": "es",
+    "text": "Apúntate a mi programa de mentoría, oferta limitada, regístrate aquí.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes a mentoring program using commercial urgency and a registration request."
+  },
+  {
+    "id": "es-spam-06",
+    "language": "es",
+    "text": "Vendo kits de cámara; contacta conmigo para pedir el tuyo.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Advertises camera kits for sale and asks readers to get in touch to place an order."
+  },
+  {
+    "id": "es-spam-07",
+    "language": "es",
+    "text": "Suscríbete a mi canal para ver ofertas y sorteos diarios.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Asks readers to subscribe to the commenter’s own channel for offers and giveaways. The self-promotion is explicit and the writing is standard."
+  },
+  {
+    "id": "es-spam-08",
+    "language": "es",
+    "text": "Consigue seguidores ahora en crecer.example, inscríbete hoy.",
+    "expectedCategory": "spam",
+    "scenario": "clear",
+    "rationale": "Promotes followers through a domain and a sign-up request. There are no relevant typos or slang."
+  },
+  {
+    "id": "es-spam-09",
+    "language": "es",
+    "text": "COMPRA YA!!! curso barato, mándame un DM para el método secreto!!!",
+    "expectedCategory": "spam",
+    "scenario": "informal_or_typo",
+    "rationale": "Promotes a course and requests contact by DM. The messaging abbreviation and emphatic punctuation characterize the register; there is no evident irony."
+  },
+  {
+    "id": "es-spam-10",
+    "language": "es",
+    "text": "dinero gratis $$$ pincha el enlace ya o te lo pierdes 😂",
+    "expectedCategory": "spam",
+    "scenario": "informal_or_typo",
+    "rationale": "Promises money and urges readers to click a link. The colloquial expression pincha, the $$$ symbols, and the advertising style reinforce the informal register; the emoji does not establish irony."
+  },
+  {
+    "id": "es-other-01",
+    "language": "es",
+    "text": "Vi este vídeo durante la pausa para comer.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes when the commenter watched the video without assessing its quality or making a request."
+  },
+  {
+    "id": "es-other-02",
+    "language": "es",
+    "text": "Hay una ventana grande detrás de la mesa.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes a window in the setting without expressing praise, criticism, or a question."
+  },
+  {
+    "id": "es-other-03",
+    "language": "es",
+    "text": "El ventilador del portátil se encendió en esta parte.",
+    "expectedCategory": "other",
+    "scenario": "borderline",
+    "rationale": "Mentions that the laptop fan started. It could imply a performance complaint, but does not assert a problem or request an improvement; other is proposed based on the literal reading."
+  },
+  {
+    "id": "es-other-04",
+    "language": "es",
+    "text": "Este vídeo me apareció en recomendaciones ayer.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Recounts how the video appeared in recommendations. It expresses neither an assessment nor a request."
+  },
+  {
+    "id": "es-other-05",
+    "language": "es",
+    "text": "Lo estoy viendo en una tableta mientras viajo.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes the device and circumstances in which the commenter is watching the video."
+  },
+  {
+    "id": "es-other-06",
+    "language": "es",
+    "text": "En la primera escena aparece una libreta roja.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Points out a notebook visible in the opening scene. This is a descriptive observation without another identifiable intent."
+  },
+  {
+    "id": "es-other-07",
+    "language": "es",
+    "text": "Suelo escuchar tutoriales mientras friego los platos.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Describes a personal habit when listening to tutorials. Mentioning household chores does not constitute slang or a spelling error."
+  },
+  {
+    "id": "es-other-08",
+    "language": "es",
+    "text": "Hoy salió este tema en una reunión del trabajo.",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Connects the topic to a work meeting without praising, criticizing, or requesting information."
+  },
+  {
+    "id": "es-other-09",
+    "language": "es",
+    "text": "lo vi en el tren y se cortaba la conexión todo el rato jaja",
+    "expectedCategory": "other",
+    "scenario": "informal_or_typo",
+    "rationale": "Recounts connection problems during a journey and adds written laughter. It refers to the commenter’s connection without attributing the problem to the video; the register is informal rather than ironic."
+  },
+  {
+    "id": "es-other-10",
+    "language": "es",
+    "text": "Son las dos y el gato se ha quedado con mi teclado 😹",
+    "expectedCategory": "other",
+    "scenario": "clear",
+    "rationale": "Makes a humorous remark about the time and the commenter’s cat. The humor and emoji do not imply sarcasm or an additional moderation intent."
+  }
+]
